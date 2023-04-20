@@ -2,7 +2,7 @@ import os
 import yaml
 import json
 
-from DIST.file_manager.files import FileManager, FilesManager
+from .files import FileManager, FilesManager
 
 
 class OpenFile(FileManager):
